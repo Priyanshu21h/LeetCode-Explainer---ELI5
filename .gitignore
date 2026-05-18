@@ -1,0 +1,13 @@
+# Python virtual environment
+   .venv/
+   __pycache__/
+   *.pyc
+
+   # Environment variables (Sensitive Data)
+   leetcode_explainer/backend/.env
+
+   # Flutter / Dart build files
+   .dart_tool/
+   .flutter-plugins
+   .flutter-plugins-dependencies
+   /build/
