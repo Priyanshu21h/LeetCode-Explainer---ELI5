@@ -42,7 +42,7 @@ class Eli5Toggle extends ConsumerWidget {
           Switch(
             value: isEli5,
             onChanged: (val) => ref.read(eli5Provider.notifier).state = val,
-            activeColor: const Color(0xFF6C63FF),
+            activeThumbColor: const Color(0xFF6C63FF),
             activeTrackColor: const Color(0xFF6C63FF).withAlpha(100),
             inactiveThumbColor: const Color(0xFF888888),
             inactiveTrackColor: const Color(0xFF444444),

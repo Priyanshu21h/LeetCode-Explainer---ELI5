@@ -45,12 +45,12 @@ pip install -r requirements.txt
   Create a `.env` file in `leetcode_explainer/backend/` and add your Groq API key:
 **Linux / macOS:**
 ```bash
-export GEMINI_API_KEY=your_key
+export GROQ_API_KEY="your_key"
 ```
 
 **Windows (PowerShell):**
 ```powershell
-$env:GEMINI_API_KEY = "your_key"
+$env:GROQ_API_KEY="your_key"
 ```
 
 ### 3. Run the Backend Server
