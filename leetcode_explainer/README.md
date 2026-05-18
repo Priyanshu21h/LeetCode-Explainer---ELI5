@@ -1,6 +1,6 @@
 # LeetCode Explainer
 
-An AI-powered code explainer app built with **Flutter** (frontend) and **FastAPI** (backend), using **Gemini** (Google) to analyze code and provide detailed explanations.
+An AI-powered code explainer app built with **Flutter** (frontend) and **FastAPI** (backend), using **Groq** to analyze code and provide detailed explanations.
 
 ## Features
 
@@ -16,7 +16,7 @@ An AI-powered code explainer app built with **Flutter** (frontend) and **FastAPI
 leetcode_explainer/
 ├── backend/
 │   ├── main.py            # FastAPI server with /explain endpoint
-│   ├── ai_service.py      # Gemini API integration
+│   ├── ai_service.py      # Groq API integration
 │   └── requirements.txt   # Python dependencies
 └── frontend/
     └── flutter_app/       # Flutter cross-platform app
@@ -77,7 +77,7 @@ flutter run
 |----------|-----------------------------|
 | Frontend | Flutter (Dart)              |
 | Backend  | FastAPI (Python)            |
-| AI       | Google Gemini               |
+| AI       | Groq                        |
 | State    | Riverpod (StateNotifier)    |
 
 ## API Endpoint
