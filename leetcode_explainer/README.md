@@ -41,6 +41,8 @@ pip install -r requirements.txt
 
 ### 2. Set Gemini API Key
 
+### Prerequisites
+  Create a `.env` file in `leetcode_explainer/backend/` and add your Groq API key:
 **Linux / macOS:**
 ```bash
 export GEMINI_API_KEY=your_key
